@@ -1,0 +1,55 @@
+body {
+  background-color: #f0f0f0;
+  font-family: "Gill Sans", sans-serif;
+  color: #333;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+  border: solid 2px #000;
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 5rem;
+  gap: 1rem;
+}
+
+.content-title {
+  color: #000;
+  font-size: 36px;
+}
+
+.underline {
+  border: none;
+  height: 2px;
+  background-color: #000;
+  margin: 20px 0;
+  border-radius: 2px;
+  -webkit-border-radius: 2px;
+  -moz-border-radius: 2px;
+  -ms-border-radius: 2px;
+  -o-border-radius: 2px;
+}
+
+a {
+  color: #000;
+  text-decoration: none;
+}
+
+.contact-title,
+.skills-title,
+.education-title,
+.experience-title {
+  color: #39a34d;
+  margin-bottom: 10px;
+  font-size: 16px;
+}
+.description {
+  margin: 0;
+}
+
+.education-institution {
+  color: #1d74c3;
+  font-weight: 600;
+}
