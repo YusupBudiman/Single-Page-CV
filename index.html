@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="id">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -10,11 +10,11 @@
     <meta name="author" content="Yusup Budiman" />
     <meta name="robots" content="index, follow" />
 
-    <!-- Open Graph tags -->
+    <!-- Open Graph -->
     <meta property="og:title" content="Yusup Budiman – Single-Page CV" />
     <meta
       property="og:description"
-      content="Tugas frontend development ke 1 Yusup budiman."
+      content="Tugas frontend development ke 1 Yusup Budiman."
     />
     <meta property="og:type" content="website" />
     <meta property="og:url" content="https://yusupbudiman.github.io/" />
@@ -22,7 +22,6 @@
       property="og:image"
       content="https://yusupbudiman.github.io/Single-Page-CV/images/myfoto.jpg"
     />
-
     <meta property="og:site_name" content="Portofolio Yusup Budiman" />
     <meta property="article:published_time" content="2025-06-14T00:00:00Z" />
 
@@ -32,16 +31,21 @@
   </head>
 
   <body>
-    <!-- Konten halaman tetap -->
     <main class="content">
-      <hr class="underline" />
-      <h1 class="content-title">Yusup Budiman</h1>
+      <header class="header">
+        <hr class="underline" />
+        <h1 class="header-title">Yusup Budiman</h1>
+      </header>
 
       <section class="profile">
         <h2 class="profile-title">Junior Frontend Developer</h2>
-        <p class="description">Bandung, Ciparay</p>
-        <p class="description">(085)156-443-62</p>
-        <a href="#" class="description">yusupbudiman3@gmail.com</a>
+        <address>
+          <p class="description">Bandung, Ciparay</p>
+          <p class="description">(085)-156-443-62</p>
+          <a href="mailto:yusupbudiman3@gmail.com" class="description"
+            >yusupbudiman3@gmail.com</a
+          >
+        </address>
       </section>
 
       <section class="skills">
@@ -53,30 +57,73 @@
       </section>
 
       <section class="education">
-        <div class="education-agate">
-          <h2 class="education-title">Education</h2>
-          <h3 class="education-institution">
-            Universitas Teknologi Bandung, Location - Degree
-          </h3>
-          <p class="education-duration">Month 20xx to Month 20xx</p>
-          <p class="description">List of exciting</p>
-        </div>
+        <h2 class="education-title">Education</h2>
+        <h3 class="education-institution">
+          Universitas Teknologi Bandung, Location – Degree
+        </h3>
+        <p class="education-duration">November 2019 to Desember 2025</p>
+        <p class="description">List of exciting things you did at university</p>
       </section>
 
       <section class="experience">
         <h2 class="experience-title">Experience</h2>
-        <h3 class="experience-company">Pengadilan, Location - Job Title</h3>
-        <p class="experience-duration">Month 20xx</p>
-        <ul class="experience-achievments">
-          <li>List of achievements</li>
-          <li>List of achievements</li>
-          <li>List of achievements</li>
-        </ul>
+        <article class="experience-list">
+          <h3 class="experience-company">Agate – Job Title</h3>
+          <p class="experience-duration">Agustus 2021 to Januari 2022</p>
+          <ul class="list experience-achievements">
+            <li>List of achievements</li>
+            <li>List of achievements</li>
+            <li>List of achievements</li>
+          </ul>
+          <p class="experience-description">
+            Skills: List of skills used or gained at this company
+          </p>
+        </article>
+
+        <article class="experience-list">
+          <h3 class="experience-company">
+            Pengadilan Militer II - 09 Bandung – IT Support
+          </h3>
+          <p class="experience-duration">Agustus 2022 to Januari 2023</p>
+          <ul class="list experience-achievements">
+            <li>Design a web-based system</li>
+            <li>List of achievements</li>
+            <li>List of achievements</li>
+          </ul>
+          <p class="experience-description">
+            Skills: List of skills used or gained at this company
+          </p>
+        </article>
       </section>
 
       <section class="contact">
-        <p class="contact-list">ss</p>
+        <h2 class="contact-title">Across The Internet</h2>
+        <ul class="contact-list">
+          <li>
+            <a
+              href="https://www.linkedin.com/in/yusup-budiman-3b976821a"
+              target="_blank"
+            >
+              <img
+                class="img-icon"
+                src="/images/linkedin.png"
+                alt="LinkedIn Yusup Budiman"
+              />
+            </a>
+          </li>
+          <li>
+            <a href="https://github.com/YusupBudiman" target="_blank">
+              <img
+                class="img-icon"
+                src="/images/github.png"
+                alt="GitHub Yusup Budiman"
+              />
+            </a>
+          </li>
+        </ul>
       </section>
+
+      <footer></footer>
     </main>
   </body>
 </html>
